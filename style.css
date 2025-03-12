@@ -1,1 +1,71 @@
 /* Add styles here */
+:root {
+    /* here variables goes */
+  
+    --color-primary:#76459C;
+  }
+  
+  /* importar bootstrap */
+  @import '~bootstrap/dist/css/bootstrap.min.css';
+  
+  .btn--primary {
+    color: var(--color-primary);
+  }
+
+  .creatividad{max-width: 100px;}
+  .grafico{max-width: 100px;}
+  .ilustracion{max-width: 100px;}
+  .informacion{max-width: 100px;}
+  .cara{max-width:500px;}
+  .animate{max-width: 50px;}
+  .autocad{max-width: 50px;}
+  .illustrator{max-width: 50px;}
+  .ceremonia{max-width: 500px;}
+  .habitacion{max-width: 500px;}
+  .nugo{max-width: 500px;}
+  .signo{max-width: 2px;}
+  .megafono{max-width: 5px;}
+  .ojo{max-width: 20px;}
+  .disco{max-width: 20px;}
+  .corazon{max-width: 5px;}
+  .cocina{max-width: 50px;}
+  .playa{max-width: 50px;}
+  .pilares{max-width: 50px;}
+
+
+
+ 
+
+
+
+
+
+
+/*fuentes */
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+  h1.tittle{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+    color:var(--color-primary);
+  }
+
+  h2.subtittle{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color:var(--color-primary);
+  }
+
+  h3.resaltado{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color:var(--color-primary);
+  }
