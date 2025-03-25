@@ -5,7 +5,7 @@
     --color-primary:#76459C;
     --color-black:#000000;
     --color-background:#D1BCD7;
-    --color-but3:#009FE3;
+    --color-but3:#BC84E7;
 
 
     --img-sm: 3rem;
@@ -68,6 +68,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 600;
+    text-align: center;
     color:var(--color-primary);
   }
 
@@ -76,7 +77,6 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 600;
-    text-align: center;
     color:var(--color-primary);
   }
 
@@ -88,7 +88,7 @@
     color:var(--color-black);
   }
 
-  body{
+  body.bg-papel{
     background-image: url("./src/img/papel.jpg");
   }
 
@@ -134,7 +134,12 @@
   font-size: 24px;
   margin: 4px 2px;
   cursor: pointer;}
-.button3 {background-color: #009FE3;}
+.button3 {background-color: #BC84E7;}
+
+
+.iconomorado{
+  color: var(--color-but3);
+}
 
 /* rectangulo */
 
@@ -149,4 +154,10 @@
 #about p{
   background-color: var(--color-background);
   padding: 2rem;
+}
+
+container.centro {
+  margin-top: 50%;
+  margin-left: 50%;
+  align-content: space-between;
 }
