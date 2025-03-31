@@ -21,25 +21,7 @@
     color: var(--color-black);
   }
 
-  .creatividad{max-width: 5px;}
-  .grafico{max-width: 50px;}
-  .ilustracion{max-width: 50px;}
-  .informacion{max-width: 50px;}
-  .cara{max-width:5px;}
-  .animate{max-width: 50px;}
-  .autocad{max-width: 50px;}
-  .illustrator{max-width: 50px;}
-  .ceremonia{max-width: 500px;}
-  .habitacion{max-width: 500px;}
-  .nugo{max-width: 500px;}
-  .signo{max-width: 2px;}
-  .megafono{max-width: 5px;}
-  .ojo{max-width: 20px;}
-  .disco{max-width: 20px;}
-  .corazon{max-width: 5px;}
-  .cocina{max-width: 50px;}
-  .playa{max-width: 50px;}
-  .pilares{max-width: 50px;}
+  .signo{max-width: 1px;}
 
 
 
@@ -69,11 +51,18 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 600;
-    text-align: center;
     color:var(--color-primary);
   }
 
   h3.resaltado{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    color:var(--color-primary);
+  }
+
+  h4.negritas{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -91,22 +80,6 @@
 
   body.bg-papel{
     background-image: url("./src/img/papel.jpg");
-  }
-
-  .box{
-    font-size: 3rem;
-    background-color: #D9D9D9;
-    width: 300px;
-    height: 300px;
-    padding-top: 200px;
-    padding-right: 200px;
-    padding-bottom: 50px;
-    padding-left: 200px;
-    border: 5px solid black;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
   }
 
   .container{
@@ -129,9 +102,128 @@
 
   .container3{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    background-color: rgba(209, 188, 215, 0.5); /* 50% de transparencia */
+    max-width: 500px; /* Ancho máximo */
+    padding: 10px; /* Espaciado interno */
+    margin: 20px; /* Centrar el recuadro */
   }
-  
+
+  .container4{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container5{
+    max-width: 50%; /* Ancho máximo */
+  }
+
+  .container6{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .container7{
+    align-items: center;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+    max-width: 375px; /* Ancho máximo */
+    padding: 10px; /* Espaciado interno */
+    margin: 20px; /* Centrar el recuadro */
+
+  }
+
+  .container8{
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+    max-width: 375%; /* Ancho máximo */
+    padding: 10px; /* Espaciado interno */
+    margin: 20px; /* Centrar el recuadro */
+
+  }
+
+  .container9{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 20px; /* Centrar el recuadro */
+
+  }
+
+
+  .recuadro{
+  display: flex;
+   }
+
+   .recuadro1{
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+    max-width: 900px; /* Ancho máximo */
+    padding: 10px; /* Espaciado interno */
+    margin: 20px; /* Centrar el recuadro */
+
+
+   }
+
+   .recuadro2{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .recuadro3{
+    background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+   }
+
+
+   .recuadro4{
+    align-items: flex-start;
+    margin: 20px; /* Centrar el recuadro */
+   }
+
+   .recuadro5{
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+    max-width: 1300px; /* Ancho máximo */
+    max-height: 200px;
+    padding: 10px; /* Espaciado interno */
+    margin: 20px; /* Centrar el recuadro */
+    
+    }
+
+
+    .recuadro6{
+      display: flex;
+     justify-content: center;
+      }
+
+    .recuadro7{
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+      max-width: 1200px; /* Ancho máximo */
+      max-height: 250px;
+      padding: 10px; /* Espaciado interno */
+      margin: 20px; /* Centrar el recuadro */
+      
+    }
+
+    .recuadro8{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      
+       }
+
+
+    .recuadro9{
+      background-color: rgba(209, 188, 215, 0.5); /* 50% de transparencia */
+      justify-content: flex-start;
+      max-width: 100%; /* Ancho máximo */
+      padding: 10px; /* Espaciado interno */
+      margin: 20px; /* Centrar el recuadro */
+        
+    }
 
 
 /* estrustura index */
@@ -177,6 +269,11 @@
 .iconomorado{
   color: var(--color-but3);
   font-size: 5rem;
+}
+
+.iconomorado1{
+  color: var(--color-but3);
+  font-size: 2rem;
 }
 
 /* rectangulo */
