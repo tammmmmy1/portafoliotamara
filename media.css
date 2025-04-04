@@ -1,0 +1,20 @@
+@media only screen and (max-width:600px){
+    
+
+
+    h1.tittle{
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: xx-large;
+        color:var(--color-primary);
+        
+      }
+
+      .recuadro{
+        display: flex;
+        align-content: space-between;
+         }
+
+}
