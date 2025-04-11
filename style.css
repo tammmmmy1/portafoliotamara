@@ -6,8 +6,10 @@
     --color-black:#000000;
     --color-background:#D1BCD7;
     --color-but3:#BC84E7;
+    --color-casa:#372148;
     --color-por:#8026C5;
-    --color-botton:#9EA9EB;
+    --color-botton:#f337a4;
+
 
 
     --img-sm: 3rem;
@@ -42,6 +44,7 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    font-size: xx-large;
     font-weight: 900;
     color:var(--color-primary);
     
@@ -51,6 +54,7 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    font-size: x-large;
     font-weight: 600;
     color:var(--color-primary);
   }
@@ -59,6 +63,7 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    font-size: x-large;
     font-weight: 600;
     color:var(--color-primary);
   }
@@ -67,6 +72,7 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    font-size: x-large;
     font-weight: 600;
     color:var(--color-primary);
   }
@@ -75,20 +81,20 @@
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-weight:400;
+    font-size: x-large;
     font-style: normal;
     color:var(--color-black);
   }
 
-  body.bg-papel{
-    background-image: url("./src/img/papel.jpg");
-  }
+body.bg-papel{
+background-image: url("./src/img/papel.jpg");
+}
 
   .container0{
     display: flex ;
     flex-direction: row;
     justify-content: space-between;
     margin: 70px; 
-    
   }
 
   
@@ -194,6 +200,8 @@
   justify-content: center;
 }
 
+
+
 .rectangulo ul {
   list-style-type: none;
   padding: 10;
@@ -204,114 +212,123 @@
 }
 
 
-  .recuadro{
-  display: flex;
-   }
+.recuadro{
+display: flex;
+/* cambio */
+flex-wrap: wrap; 
+gap: var(--space-sm); 
+}
 
-   .recuadro1{
-    align-items: flex-start;
-    background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
-    max-width: 900px; /* Ancho máximo */
-    padding: 10px; /* Espaciado interno */
-    margin: 40px; /* Centrar el recuadro */
+.recuadro1{
+align-items: flex-start;
+background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+max-width: 900px;
+padding: 10px; 
+margin: 40px; 
+}
 
+.recuadro2{
+display: flex;
+flex-direction: column;
+}
 
-   }
-
-   .recuadro2{
-    display: flex;
-    flex-direction: column;
-   }
-
-   .recuadro3{
-    background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
-   }
-
-
-   .recuadro4{
-    align-items: flex-start;
-    margin: 20px; /* Centrar el recuadro */
-    
-   }
-
-   .recuadro5{
-    align-items: flex-start;
-    background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
-    max-width: 1300px; /* Ancho máximo */
-    max-height: 200px;
-    padding: 10px; /* Espaciado interno */
-    margin: 20px; /* Centrar el recuadro */
-    
-    }
+.recuadro3{
+background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+}
 
 
-    .recuadro6{
-      display: flex;
-     justify-content: center;
-      }
+.recuadro4{
+align-items: flex-start;
+margin: 20px; /* Centrar el recuadro */
+}
 
-    .recuadro7{
-      align-items: center;
-      justify-content: space-between;
-      background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
-      max-width: 1200px; /* Ancho máximo */
-      max-height: 250px;
-      padding: 10px; /* Espaciado interno */
-      margin: 20px; /* Centrar el recuadro */
-      
-    }
-
-    .recuadro8{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      
-      
-       }
+.recuadro5{
+align-items: flex-start;
+background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+max-width: 1300px; 
+max-height: 200px;
+padding: 10px; 
+margin: 20px; 
+}
 
 
-    .recuadro9{
-      background-color: rgba(209, 188, 215, 0.5); /* 50% de transparencia */
-      justify-content: flex-start;
-      max-width: 100%; /* Ancho máximo */
-      padding: 10px; /* Espaciado interno */
-      margin: 20px; /* Centrar el recuadro */
-        
-    }
+.recuadro6{
+display: flex;
+justify-content: center;
+}
 
-    .recuadro10{
-      display: flex;
-      align-items: flex-start;
-      flex-direction: row;
-      
-        
-    }
+.recuadro7{
+align-items: center;
+justify-content: space-between;
+background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+max-width: 1200px; 
+max-height: 250px;
+padding: 10px; 
+margin: 20px; 
+}
 
-    .recuadro11{
-      align-items: flex-end;
-      background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
-      max-width: 300px; /* Ancho máximo */
-      padding: 10px; /* Espaciado interno */
-      margin: 20px; /* Centrar el recuadro */
-      align-content: column;
-      }
+.recuadro8{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.recuadro9{
+background-color: rgba(209, 188, 215, 0.5); /* 50% de transparencia */
+justify-content: flex-start;
+max-width: 100%; /* Ancho máximo */
+padding: 10px; /* Espaciado interno */
+margin: 20px; /* Centrar el recuadro */
+}
+
+.recuadro10{
+display: flex;
+align-items: flex-start;
+flex-direction: row;
+}
+
+.recuadro11{
+align-items: flex-end;
+background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+max-width: 300px; /* Ancho máximo */
+padding: 10px; /* Espaciado interno */
+margin: 20px; /* Centrar el recuadro */
+align-content: column;
+}
 
 
       
 
 /* estrustura index */
 
+
+
 .button1 {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 2px;
-  cursor: pointer;}
-.button1 {background-color:var(--color-por);}
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+margin: 4px 2px;
+cursor: pointer;
+background-color: var(--color-por);
+transition: transform 0.2s, background-color 0.2s;
+}
+
+
+
+
+
+/* Al presionar */
+.button1:active {
+  transform: scale(1.1);
+  background-color: #00cc07; /* Ajusta este color según tu diseño */
+}
+
+
 
 .button2 {
   border: none;
@@ -322,8 +339,17 @@
   display: inline-block;
   font-size: 12px;
   margin: 4px 2px;
-  cursor: pointer;}
-.button2 {background-color: var(--color-por);}
+  cursor: pointer;
+  background-color: var(--color-por);
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+/* Al presionar */
+.button2:active {
+  transform: scale(1.1);
+  background-color: #65de02; /* Puedes cambiar este color si tienes uno más adecuado */
+}
+
 
 
 .button3 {
@@ -335,8 +361,18 @@
   display: inline-block;
   font-size: 24px;
   margin: 4px 2px;
-  cursor: pointer;}
-.button3 {background-color: var(--color-but3);}
+  cursor: pointer;
+  background-color: var(--color-but3);
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+/* Al presionar */
+.button3:active {
+  transform: scale(1.1);
+  background-color: #d0ff00; 
+}
+
+
 
 
 .button4 {
@@ -348,17 +384,25 @@
   display: inline-block;
   font-size: 12px;
   margin: 4px 2px;
-  cursor: pointer;}
-.button4 {background-color:var(--color-botton);}
+  cursor: pointer;
+  background-color: var(--color-botton);
+  transition: transform 0.2s, background-color 0.2s;
+}
 
+
+/* Al presionar */
+.button4:active {
+  transform: scale(1.1);
+  background-color: #bd06fa; 
+}
 
 .iconomorado{
-  color: var(--color-but3);
+  color: var(--color-casa);
   font-size: 5rem;
 }
 
 .iconomorado1{
-  color: var(--color-but3);
+  color: var(--color-casa);
   font-size: 2rem;
 }
 
