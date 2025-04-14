@@ -1,83 +1,178 @@
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
+    /* Reset y configuración base */
+    body.bg-papel {
+        background-image: url("./src/img/papel.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
 
-  body.bg-papel{
-    background-image: url("./src/img/papel.jpg");
-    width: 100%;
-  }
+    /* Tipografía responsiva */
+    h1.tittle {
+        font-size: 2rem !important;
+        text-align: center;
+        margin: 20px 0 !important;
+    }
 
-  h1.tittle {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: xx-large;
-    color: var(--color-primary);
+    h2.subtittle, h3.resaltado, h4.negritas {
+        font-size: 1.5rem !important;
+        text-align: center;
+    }
 
-  }
+    p.texto {
+        font-size: 1rem !important;
+        line-height: 1.5;
+        padding: 1rem !important;
+    }
 
+    /* Contenedores principales */
+   
+    .container0{
+        display: flex ;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 70px; 
+        /* margin-left: 5px; */
+        }
+        
 
-  h2.subtittle {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 600;
-    font-size: x-large;
-    color: var(--color-primary);
-  }
+    .container6 {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 10px;
+    }
 
-  h3.resaltado {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 600;
-    font-size: x-large;
-    color: var(--color-primary);
-  }
+    /* Recuadros y rectángulos - tamaño consistente */
+ 
+    .recuadro1 {
+        width: 500vw !important;
+        margin: 5px !important;
+        margin-left: 2%;
+        padding: 15px !important;
+        border-radius: 10px;
+        align-content: center;
+    }
 
-  h4.negritas {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 600;
-    font-size: x-large;
-    color: var(--color-primary);
-  }
+    .rectangulo {
+        width: 90vw !important;
+        margin: 20px auto !important;
+        padding: 15px !important;
+        border-radius: 10px;
+        align-content: center;
+    }
+   
+    /* Recuadro de habilidades - 4 columnas */
+    .recuadro {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 15px !important;
+        width: auto !important;
+        max-width: auto !important;
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
 
-  p.texto {
-    font-family: "Figtree", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 500px;
-    color: var(--color-black);
-  }
+    /* Elementos dentro del recuadro de habilidades */
+    .recuadro > div {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 10px !important;
+    }
 
+    /* Imágenes responsivas */
+    .recuadro img {
+        max-width: 80% !important;
+        height: auto;
+        display: block;
+        margin: 0 auto 10px !important;
+    }
 
-  .recuadro {
-    display: flex;
-    align-content: space-between;
-  }
+    /* Botones */
+    .button1, .button2, .button3, .button4 {
+        width: 100% !important;
+        padding: 10px !important;
+        margin: 5px 0 !important;
+        font-size: 12px !important;
+        box-sizing: border-box;
+        text-align: center;
+    }
 
+    /* Ajuste para el botón grande */
+    .button3 {
+        font-size: 1.2rem !important;
+        padding: 12px !important;
+        margin: 10px auto !important;
+        display: block;
+        width: 90% !important;
+    }
 
-  .container6 {
+    /* Listas */
+    .rectangulo ul {
+        padding-left: 20px;
+        width: 100%;
+    }
 
-    flex-direction: column;
-  }
+    .rectangulo li {
+        margin-bottom: 10px;
+        font-size: 0.9rem;
+    }
 
-  .recuadro {
-    display: column;
-  }
-.separa4{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+    /* Sección about */
+    #about .row {
+        flex-direction: column !important;
+    }
+    
+
+    #about p {
+        background-color: var(--color-background);
+        padding: 1.5rem !important;
+        margin: 0 0 20px 0 !important;
+        width: 100% !important;
+        font-size: 1rem !important;
+    }
+
+    #about .col-2 {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #about img {
+        width: 150px !important;
+        height: auto;
+        margin: 0 auto !important;
+    }
+
+    /* Ajuste para el recuadro de software */
+    /* .recuadro8 {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 15px !important;
+        width: 90vw !important;
+        max-width: 400px !important;
+        margin: 0 auto !important;
+    } */
+
+    .recuadro8{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 10px;
+        max-width: auto !important;
+        }
+        
+.container10{
+align-items: center;
+margin: auto;  
 }
 
 
 
-
-
-
-
-
+    /* Footer vacío */
+    footer {
+        padding: 20px 0;
+    }
 }

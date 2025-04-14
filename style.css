@@ -170,7 +170,7 @@ background-image: url("./src/img/papel.jpg");
     display: flex ;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    margin: auto;
     
   }
 
@@ -193,18 +193,25 @@ background-image: url("./src/img/papel.jpg");
 
 .rectangulo {
   background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
-  padding: 20px;
-  width: 300px;
+  /* padding: 20px; */
+  width: 20vw;
+  /* height: 26vw; */
   border: 20px; /* Bordes redondeados opcionales */
   align-items: flex-end;
-  justify-content: center;
+  /* justify-content: center; */
+padding: 10px; 
+margin: 40px; 
 }
 
+.ul {
+  padding-left: 0 !important;
 
+}
 
 .rectangulo ul {
   list-style-type: none;
-  padding: 10;
+  padding: 10px;
+  
 }
 
 .rectangulo li {
@@ -222,9 +229,9 @@ gap: var(--space-sm);
 .recuadro1{
 align-items: flex-start;
 background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
-max-width: 90%;
+max-width: 70vw;
 padding: 10px; 
-margin: 40px; 
+margin: 20px; 
 }
 
 .recuadro2{
