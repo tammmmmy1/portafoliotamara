@@ -11,33 +11,30 @@
     }
 
     /* Tipografía responsiva */
-    h1.tittle {
-        font-size: 2rem !important;
+    #about h1.tittle {
+        font-size: 2rem;
         text-align: center;
-        margin: 20px 0 !important;
+        margin: 20px 0;
     }
 
     h2.subtittle, h3.resaltado, h4.negritas {
-        font-size: 1.5rem !important;
+        font-size: 1.5rem;
         text-align: center;
     }
 
-    p.texto {
-        font-size: 1rem !important;
+    #about p.texto {
+        font-size: 1rem;
         line-height: 1.5;
-        padding: 1rem !important;
+        padding: 1rem;
     }
 
     /* Contenedores principales */
-   
-    .container0{
-        display: flex ;
+    .container0 {
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 70px; 
-        /* margin-left: 5px; */
-        }
-        
+        margin: 70px;
+    }
 
     .container6 {
         flex-direction: column;
@@ -45,68 +42,67 @@
         padding: 0 10px;
     }
 
-    /* Recuadros y rectángulos - tamaño consistente */
- 
+    /* Recuadros y rectángulos */
     .recuadro1 {
-        width: 500vw !important;
-        margin: 5px !important;
+        width: 98vw;
+        margin: 5px;
         margin-left: 2%;
-        padding: 15px !important;
+        padding: 15px;
         border-radius: 10px;
         align-content: center;
     }
 
     .rectangulo {
-        width: 90vw !important;
-        margin: 20px auto !important;
-        padding: 15px !important;
+        width: 90vw;
+        margin: 2px;
+        margin-left: 20px;
+        padding: 15px;
         border-radius: 10px;
         align-content: center;
     }
-   
-    /* Recuadro de habilidades - 4 columnas */
-    .recuadro {
-        display: grid !important;
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 15px !important;
-        width: auto !important;
-        max-width: auto !important;
-        margin: 0 auto !important;
-        padding: 0 !important;
+
+    /* Recuadro de habilidades */
+    .recuadro1 .recuadro {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        width: auto;
+        max-width: auto;
+        margin: 0 auto;
+        padding: 0;
     }
 
-    /* Elementos dentro del recuadro de habilidades */
+    
+
+    /* Elementos dentro del recuadro */
     .recuadro > div {
-        width: 100% !important;
-        margin: 0 !important;
-        padding: 10px !important;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
     }
 
-    /* Imágenes responsivas */
+    /* Imágenes */
     .recuadro img {
-        max-width: 80% !important;
+        max-width: 80%;
         height: auto;
         display: block;
-        margin: 0 auto 10px !important;
+        margin: 0 auto 10px;
     }
 
     /* Botones */
-    .button1, .button2, .button3, .button4 {
-        width: 100% !important;
-        padding: 10px !important;
-        margin: 5px 0 !important;
-        font-size: 12px !important;
-        box-sizing: border-box;
-        text-align: center;
+    .recuadro1 .button3 {
+        font-size: 1.2rem;
+        padding: 12px;
+        margin: 10px auto;
+        display: block;
+        width: 100%;
     }
 
-    /* Ajuste para el botón grande */
-    .button3 {
-        font-size: 1.2rem !important;
-        padding: 12px !important;
-        margin: 10px auto !important;
-        display: block;
-        width: 90% !important;
+    .recuadro .button2 {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        font-size: 12px;
     }
 
     /* Listas */
@@ -122,56 +118,44 @@
 
     /* Sección about */
     #about .row {
-        flex-direction: column !important;
+        flex-direction: column;
     }
-    
 
     #about p {
         background-color: var(--color-background);
-        padding: 1.5rem !important;
-        margin: 0 0 20px 0 !important;
-        width: 100% !important;
-        font-size: 1rem !important;
+        padding: 1.5rem;
+        margin: 0 0 20px 0;
+        width: 100%;
+        font-size: 1rem;
     }
 
     #about .col-2 {
-        width: 100% !important;
+        width: 100%;
         text-align: center;
     }
 
     #about img {
-        width: 150px !important;
+        width: 150px;
         height: auto;
-        margin: 0 auto !important;
+        margin: 0 auto;
     }
 
-    /* Ajuste para el recuadro de software */
-    /* .recuadro8 {
-        display: grid !important;
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 15px !important;
-        width: 90vw !important;
-        max-width: 400px !important;
-        margin: 0 auto !important;
-    } */
-
-    .recuadro8{
+    /* Recuadro de software */
+    .recuadro8 {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 15px;
         padding: 10px;
-        max-width: auto !important;
-        }
-        
-.container10{
-align-items: center;
-margin: auto;  
-}
+        max-width: auto;
+    }
 
+    .container10 {
+        align-items: center;
+        margin: auto;
+    }
 
-
-    /* Footer vacío */
+    /* Footer */
     footer {
         padding: 20px 0;
     }
