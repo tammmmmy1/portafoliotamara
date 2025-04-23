@@ -34,6 +34,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin: 70px;
+        
     }
 
     .container6 {
@@ -44,18 +45,19 @@
 
     /* Recuadros y rectángulos */
     .recuadro1 {
-        width: 98vw;
+        width: 100%;
         margin: 5px;
-        margin-left: 2%;
+        margin-left: 40px;
         padding: 15px;
         border-radius: 10px;
         align-content: center;
+        align-self: center;
+        align-items: center;
     }
 
     .rectangulo {
-        width: 90vw;
         margin: 2px;
-        margin-left: 20px;
+        margin-left: 2px;
         padding: 15px;
         border-radius: 10px;
         align-content: center;
@@ -66,7 +68,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
-        width: auto;
+        width: 98%;
         max-width: auto;
         margin: 0 auto;
         padding: 0;
@@ -108,6 +110,7 @@
     /* Listas */
     .rectangulo ul {
         padding-left: 20px;
+        margin-right: 0%;
         width: 100%;
     }
 
@@ -144,7 +147,7 @@
     .recuadro8 {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: auto;
         gap: 15px;
         padding: 10px;
         max-width: auto;
@@ -155,8 +158,28 @@
         margin: auto;
     }
 
+
     /* Footer */
     footer {
         padding: 20px 0;
     }
+
+   
+/* botones */
+
+
+
+    .button2 {
+        width: 17vw;
+        height: 20vw;
+        padding: 8px;
+        text-align: center;
+        display: inline-block;
+        font-size: medium;
+        margin: 0px;
+        border-radius: 10px;
+      }
+
+
+
 }

@@ -90,6 +90,10 @@ body.bg-papel{
 background-image: url("./src/img/papel.jpg");
 }
 
+body{
+  cursor: url("./src/img/hacha.png"), auto;
+}
+
   .container0{
     display: flex ;
     flex-direction: row;
@@ -221,8 +225,8 @@ margin: 40px;
 
 .recuadro{
 display: flex;
-/* cambio */
-flex-wrap: wrap; 
+
+/* flex-wrap: wrap;  */
 gap: var(--space-sm); 
 }
 
@@ -394,6 +398,7 @@ transition: transform 0.2s, background-color 0.2s;
   cursor: pointer;
   background-color: var(--color-botton);
   transition: transform 0.2s, background-color 0.2s;
+  position: relative;
 }
 
 
@@ -402,6 +407,29 @@ transition: transform 0.2s, background-color 0.2s;
   transform: scale(1.1);
   background-color: #bd06fa; 
 }
+/* cursor arriba */
+.button4 ::before{
+content:"";
+position: absolute;
+top: 0%;
+bottom: 0%;
+background-color: #fad207;
+z-index: -1;
+left: 100%;
+width: 0%;
+transition: .3s;
+}
+
+.button4:hover::before{
+  width: 100%;
+  left: 0%;
+  /* transition: width 0.5s ease-in-out; */
+}
+
+
+
+
+
 
 .iconomorado{
   color: var(--color-casa);
@@ -433,3 +461,6 @@ container.centro {
   margin-left: 50%;
   align-content: space-between;
 }
+
+
+
