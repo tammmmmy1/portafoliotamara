@@ -172,14 +172,18 @@
     .button2 {
         width: 17vw;
         height: 20vw;
-        padding: 8px;
-        text-align: center;
         display: inline-block;
         font-size: medium;
-        margin: 0px;
         border-radius: 10px;
+        text-align: center;
       }
 
+      section.herramientas {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
 
 
 }

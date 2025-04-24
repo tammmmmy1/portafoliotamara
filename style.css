@@ -86,13 +86,13 @@
     color:var(--color-black);
   }
 
-body.bg-papel{
-background-image: url("./src/img/papel.jpg");
-}
+ body.bg-papel{
+ background-image: url("./src/img/papel.jpg");
+ }
 
-body{
+ body{
   cursor: url("./src/img/hacha.png"), auto;
-}
+ }
 
   .container0{
     display: flex ;
@@ -195,7 +195,7 @@ body{
 
  
 
-.rectangulo {
+ .rectangulo {
   background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
   /* padding: 20px; */
   width: 20vw;
@@ -203,148 +203,148 @@ body{
   border: 20px; /* Bordes redondeados opcionales */
   align-items: flex-end;
   /* justify-content: center; */
-padding: 10px; 
-margin: 40px; 
-}
+ padding: 10px; 
+ margin: 40px; 
+ }
 
-.ul {
+ .ul {
   padding-left: 0 !important;
 
-}
+ }
 
-.rectangulo ul {
+ .rectangulo ul {
   list-style-type: none;
   padding: 10px;
   
-}
+ }
 
-.rectangulo li {
+ .rectangulo li {
   margin-bottom: 5px;
-}
+ } 
 
 
-.recuadro{
-display: flex;
+ .recuadro{
+  display: flex;
 
-/* flex-wrap: wrap;  */
-gap: var(--space-sm); 
-}
+  /* flex-wrap: wrap;  */
+ gap: var(--space-sm); 
+ }
 
-.recuadro1{
-align-items: flex-start;
-background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
-max-width: 70vw;
-padding: 10px; 
-margin: 20px; 
-}
+ .recuadro1{
+ align-items: flex-start;
+ background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+ max-width: 70vw;
+ padding: 10px; 
+ margin: 20px; 
+ }
 
-.recuadro2{
-display: flex;
-flex-direction: column;
-}
+ .recuadro2{
+ display: flex;
+ flex-direction: column;
+ }
 
-.recuadro3{
-background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
-}
-
-
-.recuadro4{
-align-items: flex-start;
-margin: 20px; /* Centrar el recuadro */
-}
-
-.recuadro5{
-align-items: flex-start;
-background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
-max-width: 1300px; 
-max-height: 200px;
-padding: 10px; 
-margin: 20px; 
-}
+ .recuadro3{
+ background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+ }
 
 
-.recuadro6{
-display: flex;
-justify-content: center;
-}
+ .recuadro4{
+ align-items: flex-start;
+ margin: 20px; /* Centrar el recuadro */
+ }
 
-.recuadro7{
-align-items: center;
-justify-content: space-between;
-background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
-max-width: 1200px; 
-max-height: 250px;
-padding: 10px; 
-margin: 20px; 
-}
-
-.recuadro8{
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
+ .recuadro5{
+ align-items: flex-start;
+ background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+ max-width: 1300px; 
+ max-height: 200px;
+ padding: 10px; 
+ margin: 20px; 
+ }
 
 
-.recuadro9{
-background-color: rgba(209, 188, 215, 0.5); /* 50% de transparencia */
-justify-content: flex-start;
-max-width: 100%; /* Ancho máximo */
-padding: 10px; /* Espaciado interno */
-margin: 20px; /* Centrar el recuadro */
-}
+ .recuadro6{
+ display: flex;
+ justify-content: center;
+ }
 
-.recuadro10{
-display: flex;
-align-items: flex-start;
-flex-direction: row;
-}
+ .recuadro7{
+ align-items: center;
+ justify-content: space-between;
+ background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+ max-width: 1200px; 
+ max-height: 250px;
+ padding: 10px; 
+ margin: 20px; 
+ }
 
-.recuadro11{
-align-items: flex-end;
-background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
-max-width: 300px; /* Ancho máximo */
-padding: 10px; /* Espaciado interno */
-margin: 20px; /* Centrar el recuadro */
-align-content: column;
-}
+ .recuadro8{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ }
+
+
+ .recuadro9{
+ background-color: rgba(209, 188, 215, 0.5); /* 50% de transparencia */
+ justify-content: flex-start;
+ max-width: 100%; /* Ancho máximo */
+ padding: 10px; /* Espaciado interno */
+ margin: 20px; /* Centrar el recuadro */
+ }
+
+ .recuadro10{
+ display: flex;
+ align-items: flex-start;
+ flex-direction: row;
+ }
+
+ .recuadro11{
+ align-items: flex-end;
+ background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
+ max-width: 300px; /* Ancho máximo */
+ padding: 10px; /* Espaciado interno */
+ margin: 20px; /* Centrar el recuadro */
+ align-content: column;
+ }
 
 
       
 
-/* estrustura index */
+ /* estrustura index */
 
 
 
-.button1 {
-border: none;
-color: white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 12px;
-margin: 4px 2px;
-cursor: pointer;
-background-color: var(--color-por);
-transition: transform 0.2s, background-color 0.2s;
-}
+ .button1 {
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 12px;
+ margin: 4px 2px;
+ cursor: pointer;
+ background-color: var(--color-por);
+ transition: transform 0.2s, background-color 0.2s;
+ }
 
 
 
 
 
-/* Al presionar */
-.button1:active {
+ /* Al presionar */
+ .button1:active {
   transform: scale(1.1);
   background-color: #00cc07; /* Ajusta este color según tu diseño */
-}
+ }
 
 
 
-.button2 {
+ .button2 {
   border: none;
   color: white;
-  padding: 15px 15px;
+  padding: 1.3vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -353,17 +353,45 @@ transition: transform 0.2s, background-color 0.2s;
   cursor: pointer;
   background-color: var(--color-por);
   transition: transform 0.2s, background-color 0.2s;
-}
+  
+ }
 
-/* Al presionar */
-.button2:active {
+ /* Al presionar */
+ .button2:active {
   transform: scale(1.1);
   background-color: #65de02; /* Puedes cambiar este color si tienes uno más adecuado */
+ }
+
+
+ /* cursor arriba */
+ 
+
+ .button2:hover{
+  width: 100%;
+  left: 0%;
+  color: #000000;
+  background-color: #65de02;
+  transition: 0.5s;
+  border-radius: 100vw;
+
+  /* transition: width 0.5s ease-in-out; */
+ }
+
+button.button2::before{
+  content: "";
+  opacity: 0;
+}
+
+
+button.button2:hover::before{
+  content: "";
+  opacity: 1;
+  transition: opacity 1s;
 }
 
 
 
-.button3 {
+ .button3 {
   border: none;
   color: white;
   padding: 15px 32px;
@@ -375,18 +403,43 @@ transition: transform 0.2s, background-color 0.2s;
   cursor: pointer;
   background-color: var(--color-but3);
   transition: transform 0.2s, background-color 0.2s;
-}
+ }
 
-/* Al presionar */
-.button3:active {
+ /* Al presionar */
+ .button3:active {
   transform: scale(1.1);
   background-color: #d0ff00; 
+ }
+
+ /* cursor arriba */
+ 
+
+ .button3:hover{
+  width: 100%;
+  left: 0%;
+  color: #000000;
+  background-color: #f8f87c;
+  transition: 0.5s;
+  border-radius: 100vw;
+
+  /* transition: width 0.5s ease-in-out; */
+ }
+
+button.button3::before{
+  content: "";
+  opacity: 0;
+}
+
+
+button.button3:hover::before{
+  content: "";
+  opacity: 1;
+  transition: opacity 1s;
 }
 
 
 
-
-.button4 {
+ .button4 {
   border: none;
   color: white;
   padding: 15px 32px;
@@ -399,68 +452,73 @@ transition: transform 0.2s, background-color 0.2s;
   background-color: var(--color-botton);
   transition: transform 0.2s, background-color 0.2s;
   position: relative;
-}
+ }
 
 
-/* Al presionar */
-.button4:active {
+ /* Al presionar */
+ .button4:active {
   transform: scale(1.1);
   background-color: #bd06fa; 
-}
-/* cursor arriba */
-.button4 ::before{
-content:"";
-position: absolute;
-top: 0%;
-bottom: 0%;
-background-color: #fad207;
-z-index: -1;
-left: 100%;
-width: 0%;
-transition: .3s;
-}
+ }
+ /* cursor arriba */
+ 
 
-.button4:hover::before{
+ .button4:hover{
   width: 100%;
   left: 0%;
+  color: #ffffff;
+  background-color: #bd06fa;
+  transition: 0.5s;
+  border-radius: 100vw;
+
   /* transition: width 0.5s ease-in-out; */
+ }
+
+button.button4::before{
+  content: "";
+  opacity: 0;
+}
+
+
+button.button4:hover::before{
+  content: "";
+  opacity: 1;
+  transition: opacity 1s;
 }
 
 
 
-
-
-
-.iconomorado{
+ .iconomorado{
   color: var(--color-casa);
   font-size: 5rem;
-}
+ }
 
-.iconomorado1{
+ .iconomorado1{
   color: var(--color-casa);
   font-size: 2rem;
-}
+ }
 
-/* rectangulo */
-
-
-
+  /* rectangulo */
+ 
 
 
-/* #about img{
+
+
+ /* #about img{
   max-width: 20vw;
-} */
+ } */
 
-#about p{
+ #about p{
   background-color: var(--color-background);
   padding: 2rem;
-}
+ }
 
-container.centro {
+ container.centro {
   margin-top: 50%;
   margin-left: 50%;
-  align-content: space-between;
-}
+  align-content: space-between;}
+ 
+
 
 
 
