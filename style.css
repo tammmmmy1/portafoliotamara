@@ -91,8 +91,9 @@
  }
 
  body{
-  cursor: url("./src/img/hacha.png"), auto;
+  cursor: url("./src/img/kurom.png"), auto;
  }
+
 
   .container0{
     display: flex ;
@@ -309,11 +310,7 @@
  }
 
 
-      
-
- /* estrustura index */
-
-
+ /* Botones      */
 
  .button1 {
  border: none;
@@ -324,14 +321,16 @@
  display: inline-block;
  font-size: 12px;
  margin: 4px 2px;
- cursor: pointer;
  background-color: var(--color-por);
  transition: transform 0.2s, background-color 0.2s;
+ cursor: url("./src/img/ranitam.png"), auto;
+ position: relative;
  }
 
-
-
-
+ .button1:hover:nth-child(1){
+  cursor: url("./src/img/ranitam.png"), auto;
+ }
+ 
 
  /* Al presionar */
  .button1:active {
@@ -350,10 +349,13 @@
   display: inline-block;
   font-size: 12px;
   margin: 4px 2px;
-  cursor: pointer;
   background-color: var(--color-por);
   transition: transform 0.2s, background-color 0.2s;
-  
+  cursor: url("./src/img/ranitam.png"), auto;
+  position: relative;
+ }
+ .button2:hover:nth-child(1){
+  cursor: url("./src/img/ranitam.png"), auto;
  }
 
  /* Al presionar */
@@ -400,9 +402,14 @@ button.button2:hover::before{
   display: inline-block;
   font-size: 24px;
   margin: 4px 2px;
-  cursor: pointer;
   background-color: var(--color-but3);
   transition: transform 0.2s, background-color 0.2s;
+  cursor: url("./src/img/ranitam.png"), auto;
+  position: relative;
+ }
+
+ .button3:hover:nth-child(1){
+  cursor: url("./src/img/ranitam.png"), auto;
  }
 
  /* Al presionar */
@@ -421,7 +428,6 @@ button.button2:hover::before{
   background-color: #f8f87c;
   transition: 0.5s;
   border-radius: 100vw;
-
   /* transition: width 0.5s ease-in-out; */
  }
 
@@ -448,12 +454,14 @@ button.button3:hover::before{
   display: inline-block;
   font-size: 12px;
   margin: 4px 2px;
-  cursor: pointer;
+  cursor: url("./src/img/ranitam.png"), auto;
   background-color: var(--color-botton);
   transition: transform 0.2s, background-color 0.2s;
   position: relative;
  }
-
+ .button4:hover:nth-child(1){
+  cursor: url("./src/img/ranitam.png"), auto;
+ }
 
  /* Al presionar */
  .button4:active {
@@ -487,7 +495,6 @@ button.button4:hover::before{
 }
 
 
-
  .iconomorado{
   color: var(--color-casa);
   font-size: 5rem;
@@ -518,7 +525,5 @@ button.button4:hover::before{
   margin-left: 50%;
   align-content: space-between;}
  
-
-
 
 

@@ -153,12 +153,19 @@
         max-width: auto;
     }
 
+    .container9 {
+        display: flex;
+        margin: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center !important;
+    }
+       
     .container10 {
         align-items: center;
         margin: auto;
     }
-
-
+   
     /* Footer */
     footer {
         padding: 20px 0;
@@ -176,8 +183,12 @@
         font-size: medium;
         border-radius: 10px;
         text-align: center;
+        cursor: url("./src/img/ranitam.png"), auto;
       }
-
+      .button2:hover:nth-child(1){
+        cursor: url("./src/img/ranitam.png"), auto;
+       }
+      
       section.herramientas {
         width: 100%;
         display: flex;
@@ -186,4 +197,16 @@
       }
 
 
-}
+      .container0{
+        display: flex ;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 70px; 
+        display: flex !important;
+        justify-content: center;
+        }
+        
+      }
+
+
+  
