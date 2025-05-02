@@ -29,19 +29,32 @@
     }
 
     /* Contenedores principales */
-    .container0 {
+    /* .container0 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin: 70px;
         
+    } */
+
+    .contbotones {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 70px;
     }
+
 
     .container6 {
         flex-direction: column;
         width: 100%;
         padding: 0 10px;
     }
+
+    .cajacara{
+        flex-direction: row;
+        }
+
 
     /* Recuadros y rectángulos */
     .recuadro1 {
@@ -165,13 +178,51 @@
         align-items: center;
         margin: auto;
     }
+
+    .recuadro {
+        display: flex
+    ;
+        /* flex-wrap: wrap; */
+        gap: var(--space-sm);
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+
+    .recuadrosoftware{
+        display: flex;
+      
+        /* flex-wrap: wrap;  */
+       gap: var(--space-sm); 
+       }
+
+
+
+
+
+
+
+.recuadrosoftware {
+    display: flex;
+    gap: var(--space-sm);
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+    .container7{
+        margin-bottom: 20px; 
+      }
+   
    
     /* Footer */
     footer {
         padding: 20px 0;
     }
 
-   
+
 /* botones */
 
 

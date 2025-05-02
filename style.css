@@ -102,6 +102,14 @@
     margin: 70px; 
   }
 
+
+  .contbotones {
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+    justify-content: space-around;
+}
+
   
   .container{
     display: flex ;
@@ -135,9 +143,20 @@
     justify-content: space-between;
   }
 
-  .container5{
-    max-width: 50%; /* Ancho máximo */
-  }
+  
+.conthabilidades {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+  
+
+ img.exclamacion {
+  width: 2vw;
+  height: auto;
+  object-fit: cover;
+ }
 
   .container6{
     display: flex;
@@ -231,6 +250,20 @@
  gap: var(--space-sm); 
  }
 
+ .recuadrosoftware{
+  display: flex;
+
+  /* flex-wrap: wrap;  */
+ gap: var(--space-sm); 
+ }
+
+ .unionsoft{
+  display: flex;
+
+  /* flex-wrap: wrap;  */
+ gap: var(--space-sm); 
+ }
+
  .recuadro1{
  align-items: flex-start;
  background-color: rgba(255, 255, 255, 0.5); /* 50% de transparencia */
@@ -253,6 +286,13 @@
  align-items: flex-start;
  margin: 20px; /* Centrar el recuadro */
  }
+
+
+
+ .cajacara{
+  align-items: flex-start;
+  margin: 20px; /* Centrar el recuadro */
+  }
 
  .recuadro5{
  align-items: flex-start;
@@ -327,10 +367,10 @@
  position: relative;
  }
 
- .button1:hover:nth-child(1){
-  cursor: url("./src/img/ranitam.png"), auto;
+ .button1:hover{
+  cursor: url("./src/img/ranitam.png"), auto !important;
  }
- 
+
 
  /* Al presionar */
  .button1:active {
@@ -354,8 +394,8 @@
   cursor: url("./src/img/ranitam.png"), auto;
   position: relative;
  }
- .button2:hover:nth-child(1){
-  cursor: url("./src/img/ranitam.png"), auto;
+ .button2:hover{
+  cursor: url("./src/img/ranitam.png"), auto !important;
  }
 
  /* Al presionar */
@@ -408,8 +448,8 @@ button.button2:hover::before{
   position: relative;
  }
 
- .button3:hover:nth-child(1){
-  cursor: url("./src/img/ranitam.png"), auto;
+ .button3:hover{
+  cursor: url("./src/img/ranitam.png"), auto !important;
  }
 
  /* Al presionar */
@@ -459,8 +499,9 @@ button.button3:hover::before{
   transition: transform 0.2s, background-color 0.2s;
   position: relative;
  }
- .button4:hover:nth-child(1){
-  cursor: url("./src/img/ranitam.png"), auto;
+
+ .button4:hover{
+  cursor: url("./src/img/ranitam.png"), auto !important;
  }
 
  /* Al presionar */
